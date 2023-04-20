@@ -24,7 +24,7 @@ import (
 	"github.com/onsi/ginkgo/config"
 	"github.com/onsi/ginkgo/reporters"
 	. "github.com/onsi/gomega"
-	utils "github.com/outscale-dev/cluster-api-provider-outscale.git/test/e2e/utils"
+	utils "github.com/outscale/cluster-api-provider-outscale/test/e2e/utils"
 	"k8s.io/client-go/rest"
 	"os"
 	"path"
@@ -39,7 +39,7 @@ import (
 	"testing"
 	"time"
 
-	infrastructurev1beta1 "github.com/outscale-dev/cluster-api-provider-outscale.git/api/v1beta1"
+	infrastructurev1beta1 "github.com/outscale/cluster-api-provider-outscale/api/v1beta1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/cluster-api/test/framework"
 	"sigs.k8s.io/cluster-api/test/framework/bootstrap"

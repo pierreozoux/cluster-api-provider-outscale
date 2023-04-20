@@ -15,7 +15,7 @@ jobs:
           sudo ./aws/install -u 
       - uses: actions/checkout@v3
         with:
-          repository: 'outscale-dev/cluster-api-provider-outscale'
+          repository: 'outscale/cluster-api-provider-outscale'
           path: "cluster-api-provider-outscale"
           ref: main       
       - uses: actions/setup-go@v3

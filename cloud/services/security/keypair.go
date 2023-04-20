@@ -19,7 +19,7 @@ package security
 import (
 	"fmt"
 
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/util/reconciler"
+	"github.com/outscale/cluster-api-provider-outscale/util/reconciler"
 	osc "github.com/outscale/osc-sdk-go/v2"
 	"k8s.io/apimachinery/pkg/util/wait"
 	_nethttp "net/http"

@@ -11,7 +11,7 @@ theme = "theme"
 default-theme = "navy"
 preferred-dark-theme = "navy"
 additional-css = ["theme/css/custom.css"]
-git-repository-url = "https://github.com/outscale-dev/cluster-api-provider-outscale"
+git-repository-url = "https://github.com/outscale/cluster-api-provider-outscale"
 
 [output.html.search]
 enable = true            

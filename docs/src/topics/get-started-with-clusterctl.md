@@ -15,7 +15,7 @@
 
 Please clone the project:
 ```
-git clone https://github.com/outscale-dev/cluster-api-provider-outscale
+git clone https://github.com/outscale/cluster-api-provider-outscale
 ```
 
 If you use your own cluster for production (with backup, disaster recovery, ...) and expose it:
@@ -176,14 +176,14 @@ clusterctl delete --all
 [cillium]: https://docs.cilium.io/en/stable/gettingstarted/k8s-install-helm/
 [calico]: https://projectcalico.docs.tigera.io/getting-started/kubernetes/helm
 [kubeconfig]: https://cluster-api.sigs.k8s.io/clusterctl/commands/get-kubeconfig.html
-[cloud-provider-outscale]: https://github.com/outscale-dev/cloud-provider-osc/blob/OSC-MIGRATION/deploy/README.md
+[cloud-provider-outscale]: https://github.com/outscale/cloud-provider-osc/blob/OSC-MIGRATION/deploy/README.md
 [kubectl]: https://kubernetes.io/docs/tasks/tools/install-kubectl/
 [helm]: https://helm.sh/docs/intro/install/
 [clusterresourceset]: https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-resource-set.html
 [kind]: https://github.com/kubernetes-sigs/kind#installation-and-usage
 [kubeadm]: https://kubernetes.io/fr/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 [Outscale Access Key and Secret Key]: https://wiki.outscale.net/display/EN/Creating+an+Access+Key
-[osc-rke]: https://github.com/outscale-dev/osc-k8s-rke-cluster
+[osc-rke]: https://github.com/outscale/osc-k8s-rke-cluster
 [Minikube]: https://kubernetes.io/docs/tasks/tools/install-minikube/
 [openlens]: https://github.com/MuhammedKalkan/OpenLens
 [lens]: https://github.com/lensapp/lens

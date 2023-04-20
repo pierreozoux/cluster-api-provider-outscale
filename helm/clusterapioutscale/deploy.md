@@ -38,7 +38,7 @@ helm uninstall cluster-api-provider-outscale   -n cluster-api-outscale-system
 [kubectl]: https://kubernetes.io/docs/tasks/tools/install-kubectl/
 [kubeadm]: https://kubernetes.io/fr/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 [Outscale Access Key and Secret Key]: https://wiki.outscale.net/display/EN/Creating+an+Access+Key
-[osc-rke]: https://github.com/outscale-dev/osc-k8s-rke-cluster
+[osc-rke]: https://github.com/outscale/osc-k8s-rke-cluster
 [Minikube]: https://kubernetes.io/docs/tasks/tools/install-minikube/
 [helm]: https://github.com/helm/helm/releases
 [kind]: https://github.com/kubernetes-sigs/kind#installation-and-usage

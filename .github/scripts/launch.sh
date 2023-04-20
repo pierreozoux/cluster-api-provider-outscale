@@ -41,7 +41,7 @@ function check_gh {
     if [ -z "${GH_ORG_NAME}" ]; then
         echo "GH_ORG_NAME is unset";
         echo "Set default Values";
-        GH_ORG_NAME="outscale-dev"
+        GH_ORG_NAME="outscale"
     else
         echo "GH_ORG_NAME is set to '$GH_ORG_NAME'"
     fi
