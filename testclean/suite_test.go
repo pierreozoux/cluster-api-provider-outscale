@@ -20,7 +20,7 @@ import (
 	"flag"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/outscale/cluster-api-provider-outscale.git/controllers"
+	"github.com/outscale/cluster-api-provider-outscale/controllers"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
 	"k8s.io/klog/v2"
@@ -39,12 +39,12 @@ import (
 	"testing"
 	"time"
 
-	infrastructurev1beta1 "github.com/outscale/cluster-api-provider-outscale.git/api/v1beta1"
+	infrastructurev1beta1 "github.com/outscale/cluster-api-provider-outscale/api/v1beta1"
 	//+kubebuilder:scaffold:imports
 )
 
 // These tests use Ginkgo (BDD-style Go testing framework). Refer to
-// http://onsi.github.io/ginkgo/ to learn more about Ginkgo.
+// http://onsihub.io/ginkgo/ to learn more about Ginkgo.
 
 var (
 	cfg              *rest.Config
