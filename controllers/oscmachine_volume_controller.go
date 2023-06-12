@@ -20,12 +20,12 @@ import (
 	"context"
 	"fmt"
 
-	infrastructurev1beta1 "github.com/outscale-dev/cluster-api-provider-outscale.git/api/v1beta1"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/services/storage"
-	tag "github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/tag"
+	infrastructurev1beta1 "github.com/outscale/cluster-api-provider-outscale.git/api/v1beta1"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/services/storage"
+	tag "github.com/outscale/cluster-api-provider-outscale.git/cloud/tag"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/scope"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/scope"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 )
 

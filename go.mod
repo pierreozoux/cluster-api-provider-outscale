@@ -1,4 +1,4 @@
-module github.com/outscale-dev/cluster-api-provider-outscale.git
+module github.com/outscale/cluster-api-provider-outscale.git
 
 go 1.18
 

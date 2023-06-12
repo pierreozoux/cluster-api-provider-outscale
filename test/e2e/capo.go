@@ -27,7 +27,7 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	utils "github.com/outscale-dev/cluster-api-provider-outscale.git/test/e2e/utils"
+	utils "github.com/outscale/cluster-api-provider-outscale.git/test/e2e/utils"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/utils/pointer"
 	clusterv1 "sigs.k8s.io/cluster-api/api/v1beta1"

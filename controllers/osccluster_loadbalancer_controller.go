@@ -20,12 +20,12 @@ import (
 	"context"
 	"fmt"
 
-	infrastructurev1beta1 "github.com/outscale-dev/cluster-api-provider-outscale.git/api/v1beta1"
+	infrastructurev1beta1 "github.com/outscale/cluster-api-provider-outscale.git/api/v1beta1"
 	osc "github.com/outscale/osc-sdk-go/v2"
 
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/scope"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/services/security"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/services/service"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/scope"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/services/security"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/services/service"
 	clusterv1 "sigs.k8s.io/cluster-api/api/v1beta1"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"

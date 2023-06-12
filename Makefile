@@ -344,10 +344,10 @@ endif
 ##@ Release
 
 RELEASE_DIR := out
-GH_ORG_NAME ?= outscale-dev
+GH_ORG_NAME ?= outscale
 GH_REPO_NAME ?= cluster-api-provider-outscale
 RELEASE_BINARY ?= cluster-api
-GH_REPO ?= outscale-dev/$(GH_REPO_NAME)
+GH_REPO ?= outscale/$(GH_REPO_NAME)
 GOARCH  := $(shell go env GOARCH)
 GOOS    := $(shell go env GOOS)
 GET_GOPATH ?= $(shell go env GOPATH)

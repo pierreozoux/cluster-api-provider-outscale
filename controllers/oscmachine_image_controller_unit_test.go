@@ -26,9 +26,9 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/golang/mock/gomock"
-	infrastructurev1beta1 "github.com/outscale-dev/cluster-api-provider-outscale.git/api/v1beta1"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/scope"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/services/compute/mock_compute"
+	infrastructurev1beta1 "github.com/outscale/cluster-api-provider-outscale.git/api/v1beta1"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/scope"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/services/compute/mock_compute"
 )
 
 var (

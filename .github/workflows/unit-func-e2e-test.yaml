@@ -51,7 +51,7 @@ jobs:
     - name: Checkout osc-k8s-rke-cluster
       uses: actions/checkout@v3
       with:
-        repository: 'outscale-dev/osc-k8s-rke-cluster'
+        repository: 'outscale/osc-k8s-rke-cluster'
         path: "rke-cluster-for-cluster-api"
         ref: master
     - name: Install kubectl
@@ -67,7 +67,7 @@ jobs:
       uses: imranismail/setup-kustomize@v1
       with:
         kustomize-version: v4.5.7
-    - uses: outscale-dev/frieza-github-actions/frieza-clean@master
+    - uses: outscale/frieza-github-actions/frieza-clean@master
       with:
         access_key: ${{ secrets.OSC_ACCESS_KEY }}
         secret_key: ${{ secrets.OSC_SECRET_KEY }}
@@ -207,7 +207,7 @@ jobs:
     - name: Checkout osc-k8s-rke-cluster
       uses: actions/checkout@v3
       with:
-        repository: 'outscale-dev/osc-k8s-rke-cluster'
+        repository: 'outscale/osc-k8s-rke-cluster'
         path: "rke-cluster-for-cluster-api"
         ref: master
     - name: Install kubectl
@@ -223,7 +223,7 @@ jobs:
       uses: imranismail/setup-kustomize@v1
       with:
         kustomize-version: v4.5.7
-    - uses: outscale-dev/frieza-github-actions/frieza-clean@master
+    - uses: outscale/frieza-github-actions/frieza-clean@master
       with:
         access_key: ${{ secrets.OSC_ACCESS_KEY }}
         secret_key: ${{ secrets.OSC_SECRET_KEY }}

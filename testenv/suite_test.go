@@ -19,7 +19,7 @@ package test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/controllers"
+	"github.com/outscale/cluster-api-provider-outscale.git/controllers"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
@@ -36,7 +36,7 @@ import (
 	"testing"
 	"time"
 
-	infrastructurev1beta1 "github.com/outscale-dev/cluster-api-provider-outscale.git/api/v1beta1"
+	infrastructurev1beta1 "github.com/outscale/cluster-api-provider-outscale.git/api/v1beta1"
 	//+kubebuilder:scaffold:imports
 )
 

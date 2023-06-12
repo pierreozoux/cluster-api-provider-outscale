@@ -21,8 +21,8 @@ import (
 
 	"errors"
 	"github.com/benbjohnson/clock"
-	tag "github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/tag"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/util/reconciler"
+	tag "github.com/outscale/cluster-api-provider-outscale.git/cloud/tag"
+	"github.com/outscale/cluster-api-provider-outscale.git/util/reconciler"
 	osc "github.com/outscale/osc-sdk-go/v2"
 	"k8s.io/apimachinery/pkg/util/wait"
 	_nethttp "net/http"

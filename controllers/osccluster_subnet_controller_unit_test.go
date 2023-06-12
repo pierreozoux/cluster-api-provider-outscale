@@ -22,13 +22,13 @@ import (
 
 	"testing"
 
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/tag/mock_tag"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/tag/mock_tag"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/golang/mock/gomock"
-	infrastructurev1beta1 "github.com/outscale-dev/cluster-api-provider-outscale.git/api/v1beta1"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/scope"
-	"github.com/outscale-dev/cluster-api-provider-outscale.git/cloud/services/net/mock_net"
+	infrastructurev1beta1 "github.com/outscale/cluster-api-provider-outscale.git/api/v1beta1"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/scope"
+	"github.com/outscale/cluster-api-provider-outscale.git/cloud/services/net/mock_net"
 	osc "github.com/outscale/osc-sdk-go/v2"
 )
 
