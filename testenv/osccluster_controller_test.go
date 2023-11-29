@@ -78,6 +78,7 @@ func deployOscInfraMachine(ctx context.Context, infraMachineSpec infrastructurev
 
 // createCheckDeleteOscCluster will deploy oscInfraCluster (create osccluster object), deploy capoCluster (create cluster object), will validate each OscInfraCluster component is provisioned and then will delelete OscInfraCluster (delete osccluster) and capoCluster (delete cluster)
 func createCheckDeleteOscCluster(ctx context.Context, infraClusterSpec infrastructurev1beta1.OscClusterSpec) {
+	time.Sleep(120)
 	oscInfraCluster, oscInfraClusterKey := deployOscInfraCluster(ctx, infraClusterSpec, "cluster-api-test", "default")
 	capoCluster, capoClusterKey := deployCapoCluster(ctx, "cluster-api-test", "default")
 	waitOscInfraClusterToBeReady(ctx, oscInfraClusterKey)
@@ -101,6 +102,7 @@ func createCheckDeleteOscCluster(ctx context.Context, infraClusterSpec infrastru
 
 // createCheckDeleteOscClusterMachine will deploy oscInfraCluster (create osccluster object), deploy oscInfraMachine (create oscmachine object),  deploy capoCluster (create cluster object), deploy capoMachine (create machine object), will validate each OscInfraCluster component is provisioned and then will delelete OscInfraCluster (delete osccluster) and capoCluster (delete cluster)
 func createCheckDeleteOscClusterMachine(ctx context.Context, infraClusterSpec infrastructurev1beta1.OscClusterSpec, infraMachineSpec infrastructurev1beta1.OscMachineSpec) {
+	time.Sleep(120)
 	oscInfraCluster, oscInfraClusterKey := deployOscInfraCluster(ctx, infraClusterSpec, "cluster-api-test", "default")
 	capoCluster, capoClusterKey := deployCapoCluster(ctx, "cluster-api-test", "default")
 	waitOscInfraClusterToBeReady(ctx, oscInfraClusterKey)
